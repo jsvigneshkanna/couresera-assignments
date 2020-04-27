@@ -7,18 +7,23 @@
 		}
 		.row
 		{
-			background-image: url("curtley.jpg") 60%;
+			background-image: url("curtley.jpg");
+			opacity: .5
 			background-repeat: no-repeat;
 			background-size: cover;
 			position: relative;
 			font-weight:900;
 			width: 100%;
 		}
+		.row:hover {
+			opacity: .6;
+			background-color: white; 
+		}
 		p
 		{
 			width:90%;
-			height: 150px;
-			border: 1px bold;
+			height: 250px;
+			border: 2px bold;
 			margin-left: auto;
 			margin-right: auto;
 			overflow:auto;
@@ -35,7 +40,7 @@
 		}
 		h1:hover
 		{
-			transform: rotateX(150deg);
+			transform: translateY(50px);
 			background-color: grey;
 		}
 .chicken
