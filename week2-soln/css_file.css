@@ -7,7 +7,7 @@
 		}
 		.row
 		{
-			background-image: url("curtley.jpeg");
+			background-image: url("curtley.jpg") 60%;
 			background-repeat: no-repeat;
 			background-size: cover;
 			position: relative;
@@ -35,7 +35,7 @@
 		}
 		h1:hover
 		{
-			transform: rotate3d(right);
+			transform: rotateX(150deg);
 			background-color: grey;
 		}
 .chicken
@@ -86,7 +86,7 @@
 			{
 				float: left;
 				width: 33%;
-			background-image: url("bg-image.jpg");
+			background-image: url("curtley.jpg");
 			background-repeat: no-repeat;
 			background-size: cover;
 			position: relative;
