@@ -7,17 +7,18 @@
 		}
 		.row
 		{
-			background-image: url("curtley.jpg");
-			opacity: .5
+			background-color: #ffffcc;
 			background-repeat: no-repeat;
 			background-size: cover;
 			position: relative;
 			font-weight:900;
 			width: 100%;
+			border: 2px bold;
+			border-color: red;
 		}
 		.row:hover {
-			opacity: .6;
-			background-color: white; 
+			opacity: .8;
+			background-color: #ffad99;
 		}
 		p
 		{
@@ -40,7 +41,7 @@
 		}
 		h1:hover
 		{
-			transform: translateY(50px);
+			transform: rotate(180deg);
 			background-color: grey;
 		}
 .chicken
@@ -50,7 +51,7 @@
 			background-color: #80ff80;
 			font-weight:bold;
 			font-size: auto;
-			float: right;
+			float: left;
 			color: #660066;
 			text-align: left;
 			border: 2px solid black;
@@ -63,7 +64,7 @@
 			background-color:#ff884d;
 			font-weight:bold;
 			font-size: auto;
-			float: right;
+			float: center;
 			color: white;
 			text-align: center;
 			border: 2px solid black;
@@ -91,8 +92,8 @@
 			{
 				float: left;
 				width: 33%;
-			background-image: url("curtley.jpg");
 			background-repeat: no-repeat;
+			background-color: #80dfff;
 			background-size: cover;
 			position: relative;
 			}
