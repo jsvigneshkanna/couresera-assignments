@@ -1,0 +1,102 @@
+*
+		{
+			box-sizing: border-box;
+			font-family: Verdana, Geneva, sans-serif;
+
+
+		}
+		.row
+		{
+			background-image: url("curtlery.jpeg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+			font-weight:900;
+			width: 100%;
+		}
+		p
+		{
+			width:90%;
+			height: 150px;
+			border: 1px dashed black;
+			margin-left: auto;
+			margin-right: auto;
+			overflow:hidden;
+			padding: 10px;
+			color:black;
+		}
+		h1
+		{
+			text-align: center;
+			background-color: indigo;
+			transition:background-color 2s;
+			transition-timing-function: ease-out;
+			margin-bottom: 25px;
+		}
+		h1:hover
+		{
+			transform: rotate(180deg);
+			background-color: gold;
+		}
+.chicken
+		{
+			width:19%;
+			height:15%;
+			background-color: #80ff80;
+			font-weight:bold;
+			font-size: auto;
+			float: right;
+			color: #660066;
+			text-align: left;
+			border: 2px solid black;
+
+		}
+			.beef
+		{
+			width:15%;
+			height:15%;
+			background-color:#ff884d;
+			font-weight:bold;
+			font-size: auto;
+			float: right;
+			color: white;
+			text-align: center;
+			border: 2px solid black;
+
+		}
+			.sushi
+		{
+			width:15%;
+			height:15%;
+			background-color: #809fff;
+			font-weight:bold;
+			font-size: auto;
+			float: right;
+			color: #004d00;
+			text-align: right;
+			border: 2px solid black;
+
+		}
+
+
+/*this is the css code for controlling the device layout */
+@media(min-width: 992px)
+		{
+			.lg
+			{
+				float: left;
+				width: 33%;
+			background-image: url("bg-image.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+			}
+		}
+		@media(min-width: 768px) and (max-width: 991px)
+		{
+			.md
+			{
+				float: left;
+				width: 44%;
+			}
+		}
