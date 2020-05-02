@@ -34,14 +34,13 @@
 		h1
 		{
 			text-align: center;
-			background-color: indigo;
+			background-color: white;
 			transition:background-color 2s;
 			transition-timing-function: ease-out;
 			margin-bottom: 25px;
 		}
 		h1:hover
 		{
-			transform: rotate(180deg);
 			background-color: grey;
 		}
 .chicken
@@ -51,7 +50,7 @@
 			background-color: #80ff80;
 			font-weight:bold;
 			font-size: auto;
-			float: left;
+			float: right;
 			color: #660066;
 			text-align: left;
 			border: 2px solid black;
@@ -64,7 +63,7 @@
 			background-color:#ff884d;
 			font-weight:bold;
 			font-size: auto;
-			float: center;
+			float: right;
 			color: white;
 			text-align: center;
 			border: 2px solid black;
@@ -96,13 +95,20 @@
 			background-color: #80dfff;
 			background-size: cover;
 			position: relative;
+			border: 2px solid;
+			border-color: red;
+			margin: 2px;
 			}
 		}
-		@media(min-width: 768px) and (max-width: 991px)
+		@media(min-width: 500px) and (max-width: 991px)
 		{
 			.md
 			{
 				float: left;
 				width: 44%;
+				position: unset;
+				border: 2px solid;
+			border-color: red;
+			margin: 2px;
 			}
 		}
