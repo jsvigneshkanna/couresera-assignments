@@ -1,114 +1,191 @@
-*
-		{
-			box-sizing: border-box;
-			font-family: Verdana, Geneva, sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  background-color: black;
+}
 
-		}
-		.row
-		{
-			background-color: #ffffcc;
-			background-repeat: no-repeat;
-			background-size: cover;
-			position: relative;
-			font-weight:900;
-			width: 100%;
-			border: 2px bold;
-			border-color: red;
-		}
-		.row:hover {
-			opacity: .8;
-			background-color: #ffad99;
-		}
-		p
-		{
-			width:90%;
-			height: 250px;
-			border: 2px bold;
-			margin-left: auto;
-			margin-right: auto;
-			overflow:auto;
-			padding: 10px;
-			color:black;
-		}
-		h1
-		{
-			text-align: center;
-			background-color: white;
-			transition:background-color 2s;
-			transition-timing-function: ease-out;
-			margin-bottom: 25px;
-		}
-		h1:hover
-		{
-			background-color: grey;
-		}
-.chicken
-		{
-			width:19%;
-			height:15%;
-			background-color: #80ff80;
-			font-weight:bold;
-			font-size: auto;
-			float: right;
-			color: #660066;
-			text-align: left;
-			border: 2px solid black;
+header {
+  background-color: cyan;
+  text-align: center;
+  height: 100px;
+  border: 1px solid red;
+  margin-bottom: 10%;
+}
 
-		}
-			.beef
-		{
-			width:15%;
-			height:15%;
-			background-color:#ff884d;
-			font-weight:bold;
-			font-size: auto;
-			float: right;
-			color: white;
-			text-align: center;
-			border: 2px solid black;
+h1 {
+  padding: 2%;
+  font-weight: bold;
+  font-family: Arial, Helvetica, serif;
+  font-size: 300%;
+}
 
-		}
-			.sushi
-		{
-			width:15%;
-			height:15%;
-			background-color: #809fff;
-			font-weight:bold;
-			font-size: auto;
-			float: right;
-			color: #004d00;
-			text-align: right;
-			border: 2px solid black;
+#section_1 {
+  background-color: beige;
+  border: 1px solid red;
+  padding: 18px;
+  width: 32%;
 
-		}
+  float: left;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom: 14%;
+  position: relative;
 
+}
 
-/*this is the css code for controlling the device layout */
-@media(min-width: 992px)
-		{
-			.lg
-			{
-				float: left;
-				width: 33%;
-			background-repeat: no-repeat;
-			background-color: #80dfff;
-			background-size: cover;
-			position: relative;
-			border: 2px solid;
-			border-color: red;
-			margin: 2px;
-			}
-		}
-		@media(min-width: 500px) and (max-width: 991px)
-		{
-			.md
-			{
-				float: left;
-				width: 44%;
-				position: unset;
-				border: 2px solid;
-			border-color: red;
-			margin: 2px;
-			}
-		}
+#section_2 {
+  background-color: beige;
+  border: 1px solid red;
+  padding: 18px;
+  width: 32%;
+
+  float: left;
+  margin-right: 1%;
+  margin-bottom: 14%;
+  position: relative;
+}
+
+#section_3 {
+  background-color: beige;
+  border: 1px solid red;
+  padding: 18px;
+  width: 32%;
+
+  float: left;
+  margin-bottom: 14%;
+  position: relative;
+}
+
+footer p {
+  clear: both;
+  background-color: beige;
+  padding: 20px;
+}
+
+#chicken {
+  background-color: gray;
+  padding: 2%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid red;
+  width: 100px;
+}
+
+#beef {
+  background-color: gray;
+  padding: 2%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid red;
+  width: 100px;
+}
+
+#sushi {
+  background-color: gray;
+  padding: 2%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid red;
+  width: 100px;
+}
+
+#section_1 p {
+  margin-top: 25px;
+}
+
+#section_2 p {
+  margin-top: 25px;
+}
+
+#section_3 p {
+  margin-top: 25px;
+}
+
+#chicken h3 {
+  text-align: center;
+}
+
+#beef h3 {
+  text-align: center;
+}
+
+#sushi h3 {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  #section_1 {
+    width: 32%;
+  }
+
+  #section_2 {
+    width: 32%;
+
+  }
+
+  #section_3 {
+    width: 32%;
+
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #section_1 {
+    width: 49%;
+    float: left;
+    margin-bottom: 0;
+
+  }
+
+  #section_2 {
+    width: 48%;
+    float: left;
+    margin-bottom: 0;
+  }
+
+  #section_3 {
+    width: 98%;
+    float: left;
+    height: 150px;
+    margin-left: 8px;
+    margin-top: 5%;
+  }
+
+  #sushi {
+    width: 100px;
+    padding: 1%;
+
+  }
+
+  #sushi h3 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  #section_1 {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 2%;
+  }
+
+  #section_2 {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 2%;
+
+  }
+
+  #section_3 {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 2%;
+  }
+}
